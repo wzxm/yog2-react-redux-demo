@@ -5,7 +5,7 @@
 
 // fis3-enable
 
-fis.config.set('namespace', 'home');
+fis.config.set('namespace', '{{-app_name-}}');
 
 // 按照 react-redux 的目录规范设置源代码目录
 fis.match('/client/{actions,components,constants,routes,containers,page,reducers,store}/**.{js,es,jsx,ts,tsx}', {
